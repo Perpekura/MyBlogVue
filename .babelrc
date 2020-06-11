@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      }
+    }],
+    "stage-2"
+  ],
+  "plugins": ["transform-vue-jsx", "transform-runtime"],
+  "ignore": [
+  "./src/lib/mui/mui.js",
+  "./src/lib/mui/mui.min.js",
+  "./src/lib/mui/mui.picker.js",
+  "./src/lib/mui/mui.poppicker.js"
+  ]
+}
